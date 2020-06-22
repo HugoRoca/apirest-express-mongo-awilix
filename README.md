@@ -3,11 +3,11 @@
 
 ## Steps
 
-1- install travis (gem intall travis)
-2- install heroku and login (heroku login)
-3- view steps in heroku
-4- add `.travis.yml`
-5- exec this command:
+- install travis (gem intall travis)
+- install heroku and login (heroku login)
+- view steps in heroku
+- add `.travis.yml`
+- exec this command:
 
 ```
 travis encrypt $(heroku auth:token) --add deploy.api_key --org
@@ -18,7 +18,7 @@ travis encrypt <api-key> -r <github-user>/<repo-name> --add deploy.api_key
 
 ```
 
-6- complete travis file:
+- complete travis file:
 
 ```yaml
 language: node_js
